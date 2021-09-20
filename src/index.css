@@ -1,0 +1,24 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css";
+
+body{
+	margin-top:25px;
+	background: #393941;
+}
+
+table a>i.fa-edit{ 
+	cursor: pointer;
+	transition: .3s;
+}
+table i.fa-edit:hover{
+	color: orange;
+	transition: .3s;
+}
+
+table a>i.fa-trash-alt{
+	cursor: pointer;
+	transition: .3s;
+}
+table i.fa-trash-alt:hover{
+	color: orangered;
+	transition: .3s;
+}
